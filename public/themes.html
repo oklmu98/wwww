@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Astral</title>
+	<link rel="stylesheet" href="/css/themes.css">
+  <link rel="icon" type="image/x-icon" href="/images/fav.png">
+</head>
+
+<body>
+  <!-- particles.js container --> 
+<div id="particles-js"></div>
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+ 
+<a href="https://bgjk-production.up.railway.app"><button id='back' onclick="redirect()">Back</button></a>
+<h1>Themes</h1>
+
+<button id="galaxy" onclick="galaxy()">Galaxy Mode</button>
+
+<button id="ocean" onclick="ocean()">Ocean Mode</button>
+
+<button id="classic" onclick="classic()">Classic Mode</button>
+
+
+	<script src="script.js">
+function redirect() {
+  window.location.href = "https://bgjk-production.up.railway.app"
+}
+
+
+  </script>
+      </body>
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Notification</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div id="toast">
+            <div class="container-1">
+                <i class="fas fa-check-square"></i>
+            </div>
+            <div class="container-2">
+                <p>Success</p>
+                <p>Your changes are saved successfully.</p>
+            </div>
+            <button id="close" onclick="closeToast()">
+                &times;
+            </button>
+        </div>
+    </div>
+    <button id="show-toast" onclick="showToast()">Save Settings</button>
+    <!--Script-->
+    <script src="bozo.js"></script>
+</body>
+    
+<html>
